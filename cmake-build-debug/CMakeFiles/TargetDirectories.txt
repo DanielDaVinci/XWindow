@@ -1,0 +1,3 @@
+/mnt/c/C++/XWindow/cmake-build-debug/CMakeFiles/XWindow.dir
+/mnt/c/C++/XWindow/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/c/C++/XWindow/cmake-build-debug/CMakeFiles/rebuild_cache.dir
