@@ -129,6 +129,54 @@ XWindow/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/XWindow.dir/build.make CMakeFiles/XWindow.dir/build
 .PHONY : XWindow/fast
 
+example/MainWindow.o: example/MainWindow.cpp.o
+.PHONY : example/MainWindow.o
+
+# target to build an object file
+example/MainWindow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/XWindow.dir/build.make CMakeFiles/XWindow.dir/example/MainWindow.cpp.o
+.PHONY : example/MainWindow.cpp.o
+
+example/MainWindow.i: example/MainWindow.cpp.i
+.PHONY : example/MainWindow.i
+
+# target to preprocess a source file
+example/MainWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/XWindow.dir/build.make CMakeFiles/XWindow.dir/example/MainWindow.cpp.i
+.PHONY : example/MainWindow.cpp.i
+
+example/MainWindow.s: example/MainWindow.cpp.s
+.PHONY : example/MainWindow.s
+
+# target to generate assembly for a file
+example/MainWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/XWindow.dir/build.make CMakeFiles/XWindow.dir/example/MainWindow.cpp.s
+.PHONY : example/MainWindow.cpp.s
+
+lib/Extensions/Common/Color.o: lib/Extensions/Common/Color.cpp.o
+.PHONY : lib/Extensions/Common/Color.o
+
+# target to build an object file
+lib/Extensions/Common/Color.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/XWindow.dir/build.make CMakeFiles/XWindow.dir/lib/Extensions/Common/Color.cpp.o
+.PHONY : lib/Extensions/Common/Color.cpp.o
+
+lib/Extensions/Common/Color.i: lib/Extensions/Common/Color.cpp.i
+.PHONY : lib/Extensions/Common/Color.i
+
+# target to preprocess a source file
+lib/Extensions/Common/Color.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/XWindow.dir/build.make CMakeFiles/XWindow.dir/lib/Extensions/Common/Color.cpp.i
+.PHONY : lib/Extensions/Common/Color.cpp.i
+
+lib/Extensions/Common/Color.s: lib/Extensions/Common/Color.cpp.s
+.PHONY : lib/Extensions/Common/Color.s
+
+# target to generate assembly for a file
+lib/Extensions/Common/Color.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/XWindow.dir/build.make CMakeFiles/XWindow.dir/lib/Extensions/Common/Color.cpp.s
+.PHONY : lib/Extensions/Common/Color.cpp.s
+
 lib/Extensions/XWindow/XWindow.o: lib/Extensions/XWindow/XWindow.cpp.o
 .PHONY : lib/Extensions/XWindow/XWindow.o
 
@@ -186,6 +234,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... XWindow"
+	@echo "... example/MainWindow.o"
+	@echo "... example/MainWindow.i"
+	@echo "... example/MainWindow.s"
+	@echo "... lib/Extensions/Common/Color.o"
+	@echo "... lib/Extensions/Common/Color.i"
+	@echo "... lib/Extensions/Common/Color.s"
 	@echo "... lib/Extensions/XWindow/XWindow.o"
 	@echo "... lib/Extensions/XWindow/XWindow.i"
 	@echo "... lib/Extensions/XWindow/XWindow.s"

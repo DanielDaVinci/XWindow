@@ -81,12 +81,12 @@ clean: CMakeFiles/XWindow.dir/clean
 CMakeFiles/XWindow.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/XWindow.dir/build.make CMakeFiles/XWindow.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/XWindow.dir/build.make CMakeFiles/XWindow.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/C++/XWindow/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target XWindow"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/C++/XWindow/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target XWindow"
 .PHONY : CMakeFiles/XWindow.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/XWindow.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/C++/XWindow/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/C++/XWindow/cmake-build-debug/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/XWindow.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/C++/XWindow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/XWindow.dir/rule

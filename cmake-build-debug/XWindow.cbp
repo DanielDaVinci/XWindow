@@ -82,6 +82,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/mnt/c/C++/XWindow/example/MainWindow.cpp">
+			<Option target="XWindow"/>
+		</Unit>
+		<Unit filename="/mnt/c/C++/XWindow/example/MainWindow.h">
+			<Option target="XWindow"/>
+		</Unit>
+		<Unit filename="/mnt/c/C++/XWindow/lib/Extensions/Common/Color.cpp">
+			<Option target="XWindow"/>
+		</Unit>
+		<Unit filename="/mnt/c/C++/XWindow/lib/Extensions/Common/Color.h">
+			<Option target="XWindow"/>
+		</Unit>
 		<Unit filename="/mnt/c/C++/XWindow/lib/Extensions/XWindow/XWindow.cpp">
 			<Option target="XWindow"/>
 		</Unit>

@@ -20,31 +20,138 @@ void XWindow::Close()
     inProcess = false;
 }
 
-void XWindow::setGC(XGCValues& gcValues)
+Color XWindow::getColor(string color)
 {
-    graphicContextValues = gcValues;
-    XChangeGC(display, graphicContext, GCLineWidth, &graphicContextValues);
+    return Color(display, screenNumber, color);
+}
+
+void XWindow::setBackgroundColor(Color color)
+{
+    attributesMask |= CWBackPixel;
+    windowAttributes.background_pixel = color;
+    if (window != 0)
+    {
+        XSetWindowBackground(display, window, color);
+        XClearArea(display, window, 0, 0, 0, 0, true);
+    }
 }
 
 void XWindow::setSizeHints(XSizeHints& sizeHints)
 {
     windowSizeHints = sizeHints;
-    XSetWMNormalHints(display, window, &windowSizeHints);
+    if (window != 0)
+        XSetWMNormalHints(display, window, &windowSizeHints);
+}
+
+void XWindow::setX(int x)
+{
+    windowSizeHints.x = x;
+    setSizeHints(windowSizeHints);
+}
+
+int XWindow::getX() const
+{
+    return windowSizeHints.x;
+}
+
+void XWindow::setY(int y)
+{
+    windowSizeHints.y = y;
+    setSizeHints(windowSizeHints);
+}
+
+int XWindow::getY() const
+{
+    return windowSizeHints.y;
+}
+
+void XWindow::setHeight(int height)
+{
+    windowSizeHints.height = height;
+    setSizeHints(windowSizeHints);
+}
+
+int XWindow::getHeight() const
+{
+    return windowSizeHints.height;
+}
+
+void XWindow::setWidth(int width)
+{
+    windowSizeHints.width = width;
+    setSizeHints(windowSizeHints);
+}
+
+int XWindow::getWidth() const
+{
+    return windowSizeHints.width;
 }
 
 void XWindow::setEventMask(long mask)
 {
-    XSelectInput(display, window, mask);
+    eventMask |= mask;
+    if (window != 0)
+        XSelectInput(display, window, eventMask);
 }
 
-void XWindow::setMouseClickable()
+void XWindow::setMouseDownNotify()
+{
+    setEventMask(ButtonPressMask);
+}
+
+void XWindow::unsetMouseDownNotify()
+{
+    setEventMask(~ButtonPressMask);
+}
+
+void XWindow::setMouseUpNotify()
+{
+    setEventMask(ButtonReleaseMask);
+}
+
+void XWindow::unsetMouseUpNotify()
+{
+    setEventMask(~ButtonReleaseMask);
+}
+
+void XWindow::setKeyDownNotify()
 {
     setEventMask(KeyPressMask);
 }
 
-void XWindow::setKeyboardTappable()
+void XWindow::unsetKeyDownNotify()
 {
-    setEventMask(ButtonPressMask);
+    setEventMask(~KeyPressMask);
+}
+
+void XWindow::setKeyUpNotify()
+{
+    setEventMask(KeyReleaseMask);
+}
+
+void XWindow::unsetKeyUpNotify()
+{
+    setEventMask(~KeyReleaseMask);
+}
+
+void XWindow::setMouseEnterNotify()
+{
+    setEventMask(EnterWindowMask);
+}
+
+void XWindow::unsetMouseEnterNotify()
+{
+    setEventMask(~EnterWindowMask);
+}
+
+void XWindow::setMouseLeaveNotify()
+{
+    setEventMask(LeaveWindowMask);
+}
+
+void XWindow::unsetMouseLeaveNotify()
+{
+    setEventMask(~LeaveWindowMask);
 }
 
 void XWindow::onInitialize()
@@ -59,19 +166,20 @@ void XWindow::onInitialize()
     graphicContext = DefaultGC(display, screenNumber);
 
     rootWindow = DefaultRootWindow(display);
+    window = 0;
 }
 
 void XWindow::onCreate()
 {
     window = XCreateWindow(display, rootWindow,
                            windowSizeHints.x, windowSizeHints.y, windowSizeHints.width, windowSizeHints.height, 1,
-                           depth, InputOutput, CopyFromParent, CWOverrideRedirect, &windowAttributes);
+                           depth, InputOutput, CopyFromParent, attributesMask, &windowAttributes);
     setEventMask(eventMask);
 }
 
 void XWindow::onDraw()
 {
-
+    XClearArea(display, window, 0, 0, 0, 0, false);
 }
 
 void XWindow::onTermination()
@@ -81,10 +189,16 @@ void XWindow::onTermination()
 
 void XWindow::onDestroy()
 {
+    XFreeGC(display, graphicContext);
     XCloseDisplay(display);
 }
 
-void XWindow::onMousePress()
+void XWindow::onMouseDown()
+{
+
+}
+
+void XWindow::onMouseUp()
 {
 
 }
@@ -99,7 +213,12 @@ void XWindow::onMouseLeave()
 
 }
 
-void XWindow::onKeyPress()
+void XWindow::onKeyDown(KeySym key, unsigned long state)
+{
+
+}
+
+void XWindow::onKeyUp(KeySym key, unsigned long state)
 {
 
 }
@@ -121,16 +240,29 @@ void XWindow::eventHandler()
                     onDraw();
                 break;
             case ButtonPress:
-                onMousePress();
+                onMouseDown();
+                break;
+            case ButtonRelease:
+                onMouseUp();
+                break;
+            case EnterNotify:
+                onMouseEnter();
+                break;
+            case LeaveNotify:
+                onMouseLeave();
                 break;
             case KeyPress:
-                onKeyPress();
+                onKeyDown(XkbKeycodeToKeysym(display, event.xkey.keycode, 0, 0),
+                          event.xkey.state);
+                break;
+            case KeyRelease:
+                onKeyUp(XkbKeycodeToKeysym(display, event.xkey.keycode, 0, event.xkey.state == ShiftMask),
+                        event.xkey.state);
+                break;
+            default:
                 break;
         }
     }
 
     onTermination();
 }
-
-
-

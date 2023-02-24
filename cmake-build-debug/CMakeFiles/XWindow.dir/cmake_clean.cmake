@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/XWindow.dir/example/MainWindow.cpp.o"
+  "CMakeFiles/XWindow.dir/example/MainWindow.cpp.o.d"
+  "CMakeFiles/XWindow.dir/lib/Extensions/Common/Color.cpp.o"
+  "CMakeFiles/XWindow.dir/lib/Extensions/Common/Color.cpp.o.d"
   "CMakeFiles/XWindow.dir/lib/Extensions/XWindow/XWindow.cpp.o"
   "CMakeFiles/XWindow.dir/lib/Extensions/XWindow/XWindow.cpp.o.d"
   "CMakeFiles/XWindow.dir/main.cpp.o"

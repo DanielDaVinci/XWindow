@@ -5,4 +5,4 @@ set(CMAKE_CXX_STANDARD 20)
 
 SET(CMAKE_CXX_FLAGS_DEBUG "-lX11")
 
-add_executable(XWindow main.cpp lib/Extensions/XWindow/XWindow.cpp lib/Extensions/XWindow/XWindow.h)
+add_executable(XWindow main.cpp lib/Extensions/XWindow/XWindow.cpp lib/Extensions/XWindow/XWindow.h example/MainWindow.cpp example/MainWindow.h lib/Extensions/Common/Color.cpp lib/Extensions/Common/Color.h)

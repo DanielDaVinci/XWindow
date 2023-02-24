@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/mnt/c/C++/XWindow/example/MainWindow.cpp" "CMakeFiles/XWindow.dir/example/MainWindow.cpp.o" "gcc" "CMakeFiles/XWindow.dir/example/MainWindow.cpp.o.d"
+  "/mnt/c/C++/XWindow/lib/Extensions/Common/Color.cpp" "CMakeFiles/XWindow.dir/lib/Extensions/Common/Color.cpp.o" "gcc" "CMakeFiles/XWindow.dir/lib/Extensions/Common/Color.cpp.o.d"
   "/mnt/c/C++/XWindow/lib/Extensions/XWindow/XWindow.cpp" "CMakeFiles/XWindow.dir/lib/Extensions/XWindow/XWindow.cpp.o" "gcc" "CMakeFiles/XWindow.dir/lib/Extensions/XWindow/XWindow.cpp.o.d"
   "/mnt/c/C++/XWindow/main.cpp" "CMakeFiles/XWindow.dir/main.cpp.o" "gcc" "CMakeFiles/XWindow.dir/main.cpp.o.d"
   )
