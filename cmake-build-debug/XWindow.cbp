@@ -88,16 +88,64 @@
 		<Unit filename="/mnt/c/C++/XWindow/example/MainWindow.h">
 			<Option target="XWindow"/>
 		</Unit>
+		<Unit filename="/mnt/c/C++/XWindow/lib/Extensions/Basic/Interfaces/IColorable.cpp">
+			<Option target="XWindow"/>
+		</Unit>
+		<Unit filename="/mnt/c/C++/XWindow/lib/Extensions/Basic/Interfaces/IColorable.h">
+			<Option target="XWindow"/>
+		</Unit>
+		<Unit filename="/mnt/c/C++/XWindow/lib/Extensions/Basic/Interfaces/IDrawable.cpp">
+			<Option target="XWindow"/>
+		</Unit>
+		<Unit filename="/mnt/c/C++/XWindow/lib/Extensions/Basic/Interfaces/IDrawable.h">
+			<Option target="XWindow"/>
+		</Unit>
+		<Unit filename="/mnt/c/C++/XWindow/lib/Extensions/Basic/Interfaces/IEventHandler.cpp">
+			<Option target="XWindow"/>
+		</Unit>
+		<Unit filename="/mnt/c/C++/XWindow/lib/Extensions/Basic/Interfaces/IEventHandler.h">
+			<Option target="XWindow"/>
+		</Unit>
+		<Unit filename="/mnt/c/C++/XWindow/lib/Extensions/Basic/Interfaces/ILifecycle.cpp">
+			<Option target="XWindow"/>
+		</Unit>
+		<Unit filename="/mnt/c/C++/XWindow/lib/Extensions/Basic/Interfaces/ILifecycle.h">
+			<Option target="XWindow"/>
+		</Unit>
+		<Unit filename="/mnt/c/C++/XWindow/lib/Extensions/Basic/XSystem.cpp">
+			<Option target="XWindow"/>
+		</Unit>
+		<Unit filename="/mnt/c/C++/XWindow/lib/Extensions/Basic/XSystem.h">
+			<Option target="XWindow"/>
+		</Unit>
+		<Unit filename="/mnt/c/C++/XWindow/lib/Extensions/Basic/XVisual.cpp">
+			<Option target="XWindow"/>
+		</Unit>
+		<Unit filename="/mnt/c/C++/XWindow/lib/Extensions/Basic/XVisual.h">
+			<Option target="XWindow"/>
+		</Unit>
+		<Unit filename="/mnt/c/C++/XWindow/lib/Extensions/Basic/XVisualObject.cpp">
+			<Option target="XWindow"/>
+		</Unit>
+		<Unit filename="/mnt/c/C++/XWindow/lib/Extensions/Basic/XVisualObject.h">
+			<Option target="XWindow"/>
+		</Unit>
+		<Unit filename="/mnt/c/C++/XWindow/lib/Extensions/Basic/XWindow.cpp">
+			<Option target="XWindow"/>
+		</Unit>
+		<Unit filename="/mnt/c/C++/XWindow/lib/Extensions/Basic/XWindow.h">
+			<Option target="XWindow"/>
+		</Unit>
+		<Unit filename="/mnt/c/C++/XWindow/lib/Extensions/Common/Brush.cpp">
+			<Option target="XWindow"/>
+		</Unit>
+		<Unit filename="/mnt/c/C++/XWindow/lib/Extensions/Common/Brush.h">
+			<Option target="XWindow"/>
+		</Unit>
 		<Unit filename="/mnt/c/C++/XWindow/lib/Extensions/Common/Color.cpp">
 			<Option target="XWindow"/>
 		</Unit>
 		<Unit filename="/mnt/c/C++/XWindow/lib/Extensions/Common/Color.h">
-			<Option target="XWindow"/>
-		</Unit>
-		<Unit filename="/mnt/c/C++/XWindow/lib/Extensions/XWindow/XWindow.cpp">
-			<Option target="XWindow"/>
-		</Unit>
-		<Unit filename="/mnt/c/C++/XWindow/lib/Extensions/XWindow/XWindow.h">
 			<Option target="XWindow"/>
 		</Unit>
 		<Unit filename="/mnt/c/C++/XWindow/main.cpp">

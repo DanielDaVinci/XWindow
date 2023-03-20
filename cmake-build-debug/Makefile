@@ -153,6 +153,222 @@ example/MainWindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/XWindow.dir/build.make CMakeFiles/XWindow.dir/example/MainWindow.cpp.s
 .PHONY : example/MainWindow.cpp.s
 
+lib/Extensions/Basic/Interfaces/IColorable.o: lib/Extensions/Basic/Interfaces/IColorable.cpp.o
+.PHONY : lib/Extensions/Basic/Interfaces/IColorable.o
+
+# target to build an object file
+lib/Extensions/Basic/Interfaces/IColorable.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/XWindow.dir/build.make CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IColorable.cpp.o
+.PHONY : lib/Extensions/Basic/Interfaces/IColorable.cpp.o
+
+lib/Extensions/Basic/Interfaces/IColorable.i: lib/Extensions/Basic/Interfaces/IColorable.cpp.i
+.PHONY : lib/Extensions/Basic/Interfaces/IColorable.i
+
+# target to preprocess a source file
+lib/Extensions/Basic/Interfaces/IColorable.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/XWindow.dir/build.make CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IColorable.cpp.i
+.PHONY : lib/Extensions/Basic/Interfaces/IColorable.cpp.i
+
+lib/Extensions/Basic/Interfaces/IColorable.s: lib/Extensions/Basic/Interfaces/IColorable.cpp.s
+.PHONY : lib/Extensions/Basic/Interfaces/IColorable.s
+
+# target to generate assembly for a file
+lib/Extensions/Basic/Interfaces/IColorable.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/XWindow.dir/build.make CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IColorable.cpp.s
+.PHONY : lib/Extensions/Basic/Interfaces/IColorable.cpp.s
+
+lib/Extensions/Basic/Interfaces/IDrawable.o: lib/Extensions/Basic/Interfaces/IDrawable.cpp.o
+.PHONY : lib/Extensions/Basic/Interfaces/IDrawable.o
+
+# target to build an object file
+lib/Extensions/Basic/Interfaces/IDrawable.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/XWindow.dir/build.make CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IDrawable.cpp.o
+.PHONY : lib/Extensions/Basic/Interfaces/IDrawable.cpp.o
+
+lib/Extensions/Basic/Interfaces/IDrawable.i: lib/Extensions/Basic/Interfaces/IDrawable.cpp.i
+.PHONY : lib/Extensions/Basic/Interfaces/IDrawable.i
+
+# target to preprocess a source file
+lib/Extensions/Basic/Interfaces/IDrawable.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/XWindow.dir/build.make CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IDrawable.cpp.i
+.PHONY : lib/Extensions/Basic/Interfaces/IDrawable.cpp.i
+
+lib/Extensions/Basic/Interfaces/IDrawable.s: lib/Extensions/Basic/Interfaces/IDrawable.cpp.s
+.PHONY : lib/Extensions/Basic/Interfaces/IDrawable.s
+
+# target to generate assembly for a file
+lib/Extensions/Basic/Interfaces/IDrawable.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/XWindow.dir/build.make CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IDrawable.cpp.s
+.PHONY : lib/Extensions/Basic/Interfaces/IDrawable.cpp.s
+
+lib/Extensions/Basic/Interfaces/IEventHandler.o: lib/Extensions/Basic/Interfaces/IEventHandler.cpp.o
+.PHONY : lib/Extensions/Basic/Interfaces/IEventHandler.o
+
+# target to build an object file
+lib/Extensions/Basic/Interfaces/IEventHandler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/XWindow.dir/build.make CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IEventHandler.cpp.o
+.PHONY : lib/Extensions/Basic/Interfaces/IEventHandler.cpp.o
+
+lib/Extensions/Basic/Interfaces/IEventHandler.i: lib/Extensions/Basic/Interfaces/IEventHandler.cpp.i
+.PHONY : lib/Extensions/Basic/Interfaces/IEventHandler.i
+
+# target to preprocess a source file
+lib/Extensions/Basic/Interfaces/IEventHandler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/XWindow.dir/build.make CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IEventHandler.cpp.i
+.PHONY : lib/Extensions/Basic/Interfaces/IEventHandler.cpp.i
+
+lib/Extensions/Basic/Interfaces/IEventHandler.s: lib/Extensions/Basic/Interfaces/IEventHandler.cpp.s
+.PHONY : lib/Extensions/Basic/Interfaces/IEventHandler.s
+
+# target to generate assembly for a file
+lib/Extensions/Basic/Interfaces/IEventHandler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/XWindow.dir/build.make CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IEventHandler.cpp.s
+.PHONY : lib/Extensions/Basic/Interfaces/IEventHandler.cpp.s
+
+lib/Extensions/Basic/Interfaces/ILifecycle.o: lib/Extensions/Basic/Interfaces/ILifecycle.cpp.o
+.PHONY : lib/Extensions/Basic/Interfaces/ILifecycle.o
+
+# target to build an object file
+lib/Extensions/Basic/Interfaces/ILifecycle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/XWindow.dir/build.make CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/ILifecycle.cpp.o
+.PHONY : lib/Extensions/Basic/Interfaces/ILifecycle.cpp.o
+
+lib/Extensions/Basic/Interfaces/ILifecycle.i: lib/Extensions/Basic/Interfaces/ILifecycle.cpp.i
+.PHONY : lib/Extensions/Basic/Interfaces/ILifecycle.i
+
+# target to preprocess a source file
+lib/Extensions/Basic/Interfaces/ILifecycle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/XWindow.dir/build.make CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/ILifecycle.cpp.i
+.PHONY : lib/Extensions/Basic/Interfaces/ILifecycle.cpp.i
+
+lib/Extensions/Basic/Interfaces/ILifecycle.s: lib/Extensions/Basic/Interfaces/ILifecycle.cpp.s
+.PHONY : lib/Extensions/Basic/Interfaces/ILifecycle.s
+
+# target to generate assembly for a file
+lib/Extensions/Basic/Interfaces/ILifecycle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/XWindow.dir/build.make CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/ILifecycle.cpp.s
+.PHONY : lib/Extensions/Basic/Interfaces/ILifecycle.cpp.s
+
+lib/Extensions/Basic/XSystem.o: lib/Extensions/Basic/XSystem.cpp.o
+.PHONY : lib/Extensions/Basic/XSystem.o
+
+# target to build an object file
+lib/Extensions/Basic/XSystem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/XWindow.dir/build.make CMakeFiles/XWindow.dir/lib/Extensions/Basic/XSystem.cpp.o
+.PHONY : lib/Extensions/Basic/XSystem.cpp.o
+
+lib/Extensions/Basic/XSystem.i: lib/Extensions/Basic/XSystem.cpp.i
+.PHONY : lib/Extensions/Basic/XSystem.i
+
+# target to preprocess a source file
+lib/Extensions/Basic/XSystem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/XWindow.dir/build.make CMakeFiles/XWindow.dir/lib/Extensions/Basic/XSystem.cpp.i
+.PHONY : lib/Extensions/Basic/XSystem.cpp.i
+
+lib/Extensions/Basic/XSystem.s: lib/Extensions/Basic/XSystem.cpp.s
+.PHONY : lib/Extensions/Basic/XSystem.s
+
+# target to generate assembly for a file
+lib/Extensions/Basic/XSystem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/XWindow.dir/build.make CMakeFiles/XWindow.dir/lib/Extensions/Basic/XSystem.cpp.s
+.PHONY : lib/Extensions/Basic/XSystem.cpp.s
+
+lib/Extensions/Basic/XVisual.o: lib/Extensions/Basic/XVisual.cpp.o
+.PHONY : lib/Extensions/Basic/XVisual.o
+
+# target to build an object file
+lib/Extensions/Basic/XVisual.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/XWindow.dir/build.make CMakeFiles/XWindow.dir/lib/Extensions/Basic/XVisual.cpp.o
+.PHONY : lib/Extensions/Basic/XVisual.cpp.o
+
+lib/Extensions/Basic/XVisual.i: lib/Extensions/Basic/XVisual.cpp.i
+.PHONY : lib/Extensions/Basic/XVisual.i
+
+# target to preprocess a source file
+lib/Extensions/Basic/XVisual.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/XWindow.dir/build.make CMakeFiles/XWindow.dir/lib/Extensions/Basic/XVisual.cpp.i
+.PHONY : lib/Extensions/Basic/XVisual.cpp.i
+
+lib/Extensions/Basic/XVisual.s: lib/Extensions/Basic/XVisual.cpp.s
+.PHONY : lib/Extensions/Basic/XVisual.s
+
+# target to generate assembly for a file
+lib/Extensions/Basic/XVisual.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/XWindow.dir/build.make CMakeFiles/XWindow.dir/lib/Extensions/Basic/XVisual.cpp.s
+.PHONY : lib/Extensions/Basic/XVisual.cpp.s
+
+lib/Extensions/Basic/XVisualObject.o: lib/Extensions/Basic/XVisualObject.cpp.o
+.PHONY : lib/Extensions/Basic/XVisualObject.o
+
+# target to build an object file
+lib/Extensions/Basic/XVisualObject.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/XWindow.dir/build.make CMakeFiles/XWindow.dir/lib/Extensions/Basic/XVisualObject.cpp.o
+.PHONY : lib/Extensions/Basic/XVisualObject.cpp.o
+
+lib/Extensions/Basic/XVisualObject.i: lib/Extensions/Basic/XVisualObject.cpp.i
+.PHONY : lib/Extensions/Basic/XVisualObject.i
+
+# target to preprocess a source file
+lib/Extensions/Basic/XVisualObject.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/XWindow.dir/build.make CMakeFiles/XWindow.dir/lib/Extensions/Basic/XVisualObject.cpp.i
+.PHONY : lib/Extensions/Basic/XVisualObject.cpp.i
+
+lib/Extensions/Basic/XVisualObject.s: lib/Extensions/Basic/XVisualObject.cpp.s
+.PHONY : lib/Extensions/Basic/XVisualObject.s
+
+# target to generate assembly for a file
+lib/Extensions/Basic/XVisualObject.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/XWindow.dir/build.make CMakeFiles/XWindow.dir/lib/Extensions/Basic/XVisualObject.cpp.s
+.PHONY : lib/Extensions/Basic/XVisualObject.cpp.s
+
+lib/Extensions/Basic/XWindow.o: lib/Extensions/Basic/XWindow.cpp.o
+.PHONY : lib/Extensions/Basic/XWindow.o
+
+# target to build an object file
+lib/Extensions/Basic/XWindow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/XWindow.dir/build.make CMakeFiles/XWindow.dir/lib/Extensions/Basic/XWindow.cpp.o
+.PHONY : lib/Extensions/Basic/XWindow.cpp.o
+
+lib/Extensions/Basic/XWindow.i: lib/Extensions/Basic/XWindow.cpp.i
+.PHONY : lib/Extensions/Basic/XWindow.i
+
+# target to preprocess a source file
+lib/Extensions/Basic/XWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/XWindow.dir/build.make CMakeFiles/XWindow.dir/lib/Extensions/Basic/XWindow.cpp.i
+.PHONY : lib/Extensions/Basic/XWindow.cpp.i
+
+lib/Extensions/Basic/XWindow.s: lib/Extensions/Basic/XWindow.cpp.s
+.PHONY : lib/Extensions/Basic/XWindow.s
+
+# target to generate assembly for a file
+lib/Extensions/Basic/XWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/XWindow.dir/build.make CMakeFiles/XWindow.dir/lib/Extensions/Basic/XWindow.cpp.s
+.PHONY : lib/Extensions/Basic/XWindow.cpp.s
+
+lib/Extensions/Common/Brush.o: lib/Extensions/Common/Brush.cpp.o
+.PHONY : lib/Extensions/Common/Brush.o
+
+# target to build an object file
+lib/Extensions/Common/Brush.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/XWindow.dir/build.make CMakeFiles/XWindow.dir/lib/Extensions/Common/Brush.cpp.o
+.PHONY : lib/Extensions/Common/Brush.cpp.o
+
+lib/Extensions/Common/Brush.i: lib/Extensions/Common/Brush.cpp.i
+.PHONY : lib/Extensions/Common/Brush.i
+
+# target to preprocess a source file
+lib/Extensions/Common/Brush.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/XWindow.dir/build.make CMakeFiles/XWindow.dir/lib/Extensions/Common/Brush.cpp.i
+.PHONY : lib/Extensions/Common/Brush.cpp.i
+
+lib/Extensions/Common/Brush.s: lib/Extensions/Common/Brush.cpp.s
+.PHONY : lib/Extensions/Common/Brush.s
+
+# target to generate assembly for a file
+lib/Extensions/Common/Brush.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/XWindow.dir/build.make CMakeFiles/XWindow.dir/lib/Extensions/Common/Brush.cpp.s
+.PHONY : lib/Extensions/Common/Brush.cpp.s
+
 lib/Extensions/Common/Color.o: lib/Extensions/Common/Color.cpp.o
 .PHONY : lib/Extensions/Common/Color.o
 
@@ -176,30 +392,6 @@ lib/Extensions/Common/Color.s: lib/Extensions/Common/Color.cpp.s
 lib/Extensions/Common/Color.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/XWindow.dir/build.make CMakeFiles/XWindow.dir/lib/Extensions/Common/Color.cpp.s
 .PHONY : lib/Extensions/Common/Color.cpp.s
-
-lib/Extensions/XWindow/XWindow.o: lib/Extensions/XWindow/XWindow.cpp.o
-.PHONY : lib/Extensions/XWindow/XWindow.o
-
-# target to build an object file
-lib/Extensions/XWindow/XWindow.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/XWindow.dir/build.make CMakeFiles/XWindow.dir/lib/Extensions/XWindow/XWindow.cpp.o
-.PHONY : lib/Extensions/XWindow/XWindow.cpp.o
-
-lib/Extensions/XWindow/XWindow.i: lib/Extensions/XWindow/XWindow.cpp.i
-.PHONY : lib/Extensions/XWindow/XWindow.i
-
-# target to preprocess a source file
-lib/Extensions/XWindow/XWindow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/XWindow.dir/build.make CMakeFiles/XWindow.dir/lib/Extensions/XWindow/XWindow.cpp.i
-.PHONY : lib/Extensions/XWindow/XWindow.cpp.i
-
-lib/Extensions/XWindow/XWindow.s: lib/Extensions/XWindow/XWindow.cpp.s
-.PHONY : lib/Extensions/XWindow/XWindow.s
-
-# target to generate assembly for a file
-lib/Extensions/XWindow/XWindow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/XWindow.dir/build.make CMakeFiles/XWindow.dir/lib/Extensions/XWindow/XWindow.cpp.s
-.PHONY : lib/Extensions/XWindow/XWindow.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -237,12 +429,36 @@ help:
 	@echo "... example/MainWindow.o"
 	@echo "... example/MainWindow.i"
 	@echo "... example/MainWindow.s"
+	@echo "... lib/Extensions/Basic/Interfaces/IColorable.o"
+	@echo "... lib/Extensions/Basic/Interfaces/IColorable.i"
+	@echo "... lib/Extensions/Basic/Interfaces/IColorable.s"
+	@echo "... lib/Extensions/Basic/Interfaces/IDrawable.o"
+	@echo "... lib/Extensions/Basic/Interfaces/IDrawable.i"
+	@echo "... lib/Extensions/Basic/Interfaces/IDrawable.s"
+	@echo "... lib/Extensions/Basic/Interfaces/IEventHandler.o"
+	@echo "... lib/Extensions/Basic/Interfaces/IEventHandler.i"
+	@echo "... lib/Extensions/Basic/Interfaces/IEventHandler.s"
+	@echo "... lib/Extensions/Basic/Interfaces/ILifecycle.o"
+	@echo "... lib/Extensions/Basic/Interfaces/ILifecycle.i"
+	@echo "... lib/Extensions/Basic/Interfaces/ILifecycle.s"
+	@echo "... lib/Extensions/Basic/XSystem.o"
+	@echo "... lib/Extensions/Basic/XSystem.i"
+	@echo "... lib/Extensions/Basic/XSystem.s"
+	@echo "... lib/Extensions/Basic/XVisual.o"
+	@echo "... lib/Extensions/Basic/XVisual.i"
+	@echo "... lib/Extensions/Basic/XVisual.s"
+	@echo "... lib/Extensions/Basic/XVisualObject.o"
+	@echo "... lib/Extensions/Basic/XVisualObject.i"
+	@echo "... lib/Extensions/Basic/XVisualObject.s"
+	@echo "... lib/Extensions/Basic/XWindow.o"
+	@echo "... lib/Extensions/Basic/XWindow.i"
+	@echo "... lib/Extensions/Basic/XWindow.s"
+	@echo "... lib/Extensions/Common/Brush.o"
+	@echo "... lib/Extensions/Common/Brush.i"
+	@echo "... lib/Extensions/Common/Brush.s"
 	@echo "... lib/Extensions/Common/Color.o"
 	@echo "... lib/Extensions/Common/Color.i"
 	@echo "... lib/Extensions/Common/Color.s"
-	@echo "... lib/Extensions/XWindow/XWindow.o"
-	@echo "... lib/Extensions/XWindow/XWindow.i"
-	@echo "... lib/Extensions/XWindow/XWindow.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -155,11 +155,29 @@ CMakeFiles/XWindow.dir/main.cpp.o: /mnt/c/C++/XWindow/main.cpp \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /mnt/c/C++/XWindow/example/MainWindow.h \
- /mnt/c/C++/XWindow/example/../lib/Extensions/XWindow/XWindow.h \
- /mnt/c/C++/XWindow/example/../lib/Extensions/XWindow/../Common/Color.h \
- /usr/include/X11/Xlib.h /usr/include/X11/X.h \
+ /mnt/c/C++/XWindow/lib/Extensions/Basic/XWindow.h /usr/include/X11/X.h \
+ /usr/include/X11/Xutil.h /usr/include/X11/Xlib.h \
  /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h \
- /usr/include/X11/Xutil.h /usr/include/X11/keysym.h \
- /usr/include/X11/keysymdef.h /usr/include/X11/XKBlib.h \
- /usr/include/X11/extensions/XKBstr.h /usr/include/X11/extensions/XKB.h
+ /usr/include/X11/keysym.h /usr/include/X11/keysymdef.h \
+ /usr/include/X11/XKBlib.h /usr/include/X11/extensions/XKBstr.h \
+ /usr/include/X11/extensions/XKB.h \
+ /mnt/c/C++/XWindow/lib/Extensions/Basic/XVisualObject.h \
+ /mnt/c/C++/XWindow/lib/Extensions/Basic/XVisual.h \
+ /mnt/c/C++/XWindow/lib/Extensions/Basic/XSystem.h \
+ /mnt/c/C++/XWindow/lib/Extensions/Basic/Interfaces/IColorable.h \
+ /mnt/c/C++/XWindow/lib/Extensions/Basic/Interfaces/../../Common/Brush.h \
+ /mnt/c/C++/XWindow/lib/Extensions/Basic/Interfaces/../../Common/Color.h \
+ /mnt/c/C++/XWindow/lib/Extensions/Basic/Interfaces/../../Common/../Basic/XVisual.h \
+ /mnt/c/C++/XWindow/lib/Extensions/Basic/Interfaces/IDrawable.h \
+ /mnt/c/C++/XWindow/lib/Extensions/Basic/Interfaces/IColorable.h \
+ /mnt/c/C++/XWindow/lib/Extensions/Basic/Interfaces/IEventHandler.h \
+ /mnt/c/C++/XWindow/lib/Extensions/Basic/Interfaces/ILifecycle.h \
+ /mnt/c/C++/XWindow/lib/Extensions/Basic/Interfaces/../XVisual.h \
+ /mnt/c/C++/XWindow/lib/Extensions/Basic/Interfaces/ILifecycle.h \
+ /mnt/c/C++/XWindow/example/MainWindow.h /usr/include/c++/11/vector \
+ /usr/include/c++/11/bits/stl_uninitialized.h \
+ /usr/include/c++/11/bits/stl_vector.h \
+ /usr/include/c++/11/bits/stl_bvector.h \
+ /usr/include/c++/11/bits/vector.tcc \
+ /mnt/c/C++/XWindow/example/../lib/Extensions/Basic/XWindow.h \
+ /mnt/c/C++/XWindow/lib/Extensions/Common/Brush.h

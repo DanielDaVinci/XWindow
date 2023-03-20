@@ -1,11 +1,24 @@
 #include "Color.h"
 
 
-Color::Color(Display* display, int screenNumber, const string& color)
+Color::Color(const string& color)
 {
-    colorMap = DefaultColormap(display, screenNumber);
-    XParseColor(display, colorMap, color.c_str(), &RGB);
-    XAllocColor(display, colorMap, &RGB);
+    colorMap = DefaultColormap(getDisplay(), getScreenNumber());
+    XParseColor(getDisplay(), colorMap, color.c_str(), &RGB);
+    XAllocColor(getDisplay(), colorMap, &RGB);
+}
+
+Color::~Color()
+{
+    XFreeColormap(getDisplay(), colorMap);
+}
+
+Color& Color::operator = (const string& color)
+{
+    XParseColor(getDisplay(), colorMap, color.c_str(), &RGB);
+    XAllocColor(getDisplay(), colorMap, &RGB);
+
+    return *this;
 }
 
 Color::operator string() const

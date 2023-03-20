@@ -83,38 +83,24 @@ CMakeFiles/XWindow.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XWindow.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/C++/XWindow/main.cpp -o CMakeFiles/XWindow.dir/main.cpp.s
 
-CMakeFiles/XWindow.dir/lib/Extensions/XWindow/XWindow.cpp.o: CMakeFiles/XWindow.dir/flags.make
-CMakeFiles/XWindow.dir/lib/Extensions/XWindow/XWindow.cpp.o: /mnt/c/C++/XWindow/lib/Extensions/XWindow/XWindow.cpp
-CMakeFiles/XWindow.dir/lib/Extensions/XWindow/XWindow.cpp.o: CMakeFiles/XWindow.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/C++/XWindow/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/XWindow.dir/lib/Extensions/XWindow/XWindow.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/XWindow.dir/lib/Extensions/XWindow/XWindow.cpp.o -MF CMakeFiles/XWindow.dir/lib/Extensions/XWindow/XWindow.cpp.o.d -o CMakeFiles/XWindow.dir/lib/Extensions/XWindow/XWindow.cpp.o -c /mnt/c/C++/XWindow/lib/Extensions/XWindow/XWindow.cpp
+CMakeFiles/XWindow.dir/lib/Extensions/Basic/XWindow.cpp.o: CMakeFiles/XWindow.dir/flags.make
+CMakeFiles/XWindow.dir/lib/Extensions/Basic/XWindow.cpp.o: /mnt/c/C++/XWindow/lib/Extensions/Basic/XWindow.cpp
+CMakeFiles/XWindow.dir/lib/Extensions/Basic/XWindow.cpp.o: CMakeFiles/XWindow.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/C++/XWindow/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/XWindow.dir/lib/Extensions/Basic/XWindow.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/XWindow.dir/lib/Extensions/Basic/XWindow.cpp.o -MF CMakeFiles/XWindow.dir/lib/Extensions/Basic/XWindow.cpp.o.d -o CMakeFiles/XWindow.dir/lib/Extensions/Basic/XWindow.cpp.o -c /mnt/c/C++/XWindow/lib/Extensions/Basic/XWindow.cpp
 
-CMakeFiles/XWindow.dir/lib/Extensions/XWindow/XWindow.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XWindow.dir/lib/Extensions/XWindow/XWindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/C++/XWindow/lib/Extensions/XWindow/XWindow.cpp > CMakeFiles/XWindow.dir/lib/Extensions/XWindow/XWindow.cpp.i
+CMakeFiles/XWindow.dir/lib/Extensions/Basic/XWindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XWindow.dir/lib/Extensions/Basic/XWindow.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/C++/XWindow/lib/Extensions/Basic/XWindow.cpp > CMakeFiles/XWindow.dir/lib/Extensions/Basic/XWindow.cpp.i
 
-CMakeFiles/XWindow.dir/lib/Extensions/XWindow/XWindow.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XWindow.dir/lib/Extensions/XWindow/XWindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/C++/XWindow/lib/Extensions/XWindow/XWindow.cpp -o CMakeFiles/XWindow.dir/lib/Extensions/XWindow/XWindow.cpp.s
-
-CMakeFiles/XWindow.dir/example/MainWindow.cpp.o: CMakeFiles/XWindow.dir/flags.make
-CMakeFiles/XWindow.dir/example/MainWindow.cpp.o: /mnt/c/C++/XWindow/example/MainWindow.cpp
-CMakeFiles/XWindow.dir/example/MainWindow.cpp.o: CMakeFiles/XWindow.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/C++/XWindow/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/XWindow.dir/example/MainWindow.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/XWindow.dir/example/MainWindow.cpp.o -MF CMakeFiles/XWindow.dir/example/MainWindow.cpp.o.d -o CMakeFiles/XWindow.dir/example/MainWindow.cpp.o -c /mnt/c/C++/XWindow/example/MainWindow.cpp
-
-CMakeFiles/XWindow.dir/example/MainWindow.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XWindow.dir/example/MainWindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/C++/XWindow/example/MainWindow.cpp > CMakeFiles/XWindow.dir/example/MainWindow.cpp.i
-
-CMakeFiles/XWindow.dir/example/MainWindow.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XWindow.dir/example/MainWindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/C++/XWindow/example/MainWindow.cpp -o CMakeFiles/XWindow.dir/example/MainWindow.cpp.s
+CMakeFiles/XWindow.dir/lib/Extensions/Basic/XWindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XWindow.dir/lib/Extensions/Basic/XWindow.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/C++/XWindow/lib/Extensions/Basic/XWindow.cpp -o CMakeFiles/XWindow.dir/lib/Extensions/Basic/XWindow.cpp.s
 
 CMakeFiles/XWindow.dir/lib/Extensions/Common/Color.cpp.o: CMakeFiles/XWindow.dir/flags.make
 CMakeFiles/XWindow.dir/lib/Extensions/Common/Color.cpp.o: /mnt/c/C++/XWindow/lib/Extensions/Common/Color.cpp
 CMakeFiles/XWindow.dir/lib/Extensions/Common/Color.cpp.o: CMakeFiles/XWindow.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/C++/XWindow/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/XWindow.dir/lib/Extensions/Common/Color.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/C++/XWindow/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/XWindow.dir/lib/Extensions/Common/Color.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/XWindow.dir/lib/Extensions/Common/Color.cpp.o -MF CMakeFiles/XWindow.dir/lib/Extensions/Common/Color.cpp.o.d -o CMakeFiles/XWindow.dir/lib/Extensions/Common/Color.cpp.o -c /mnt/c/C++/XWindow/lib/Extensions/Common/Color.cpp
 
 CMakeFiles/XWindow.dir/lib/Extensions/Common/Color.cpp.i: cmake_force
@@ -125,23 +111,165 @@ CMakeFiles/XWindow.dir/lib/Extensions/Common/Color.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XWindow.dir/lib/Extensions/Common/Color.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/C++/XWindow/lib/Extensions/Common/Color.cpp -o CMakeFiles/XWindow.dir/lib/Extensions/Common/Color.cpp.s
 
+CMakeFiles/XWindow.dir/example/MainWindow.cpp.o: CMakeFiles/XWindow.dir/flags.make
+CMakeFiles/XWindow.dir/example/MainWindow.cpp.o: /mnt/c/C++/XWindow/example/MainWindow.cpp
+CMakeFiles/XWindow.dir/example/MainWindow.cpp.o: CMakeFiles/XWindow.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/C++/XWindow/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/XWindow.dir/example/MainWindow.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/XWindow.dir/example/MainWindow.cpp.o -MF CMakeFiles/XWindow.dir/example/MainWindow.cpp.o.d -o CMakeFiles/XWindow.dir/example/MainWindow.cpp.o -c /mnt/c/C++/XWindow/example/MainWindow.cpp
+
+CMakeFiles/XWindow.dir/example/MainWindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XWindow.dir/example/MainWindow.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/C++/XWindow/example/MainWindow.cpp > CMakeFiles/XWindow.dir/example/MainWindow.cpp.i
+
+CMakeFiles/XWindow.dir/example/MainWindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XWindow.dir/example/MainWindow.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/C++/XWindow/example/MainWindow.cpp -o CMakeFiles/XWindow.dir/example/MainWindow.cpp.s
+
+CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IDrawable.cpp.o: CMakeFiles/XWindow.dir/flags.make
+CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IDrawable.cpp.o: /mnt/c/C++/XWindow/lib/Extensions/Basic/Interfaces/IDrawable.cpp
+CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IDrawable.cpp.o: CMakeFiles/XWindow.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/C++/XWindow/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IDrawable.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IDrawable.cpp.o -MF CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IDrawable.cpp.o.d -o CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IDrawable.cpp.o -c /mnt/c/C++/XWindow/lib/Extensions/Basic/Interfaces/IDrawable.cpp
+
+CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IDrawable.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IDrawable.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/C++/XWindow/lib/Extensions/Basic/Interfaces/IDrawable.cpp > CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IDrawable.cpp.i
+
+CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IDrawable.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IDrawable.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/C++/XWindow/lib/Extensions/Basic/Interfaces/IDrawable.cpp -o CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IDrawable.cpp.s
+
+CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IColorable.cpp.o: CMakeFiles/XWindow.dir/flags.make
+CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IColorable.cpp.o: /mnt/c/C++/XWindow/lib/Extensions/Basic/Interfaces/IColorable.cpp
+CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IColorable.cpp.o: CMakeFiles/XWindow.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/C++/XWindow/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IColorable.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IColorable.cpp.o -MF CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IColorable.cpp.o.d -o CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IColorable.cpp.o -c /mnt/c/C++/XWindow/lib/Extensions/Basic/Interfaces/IColorable.cpp
+
+CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IColorable.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IColorable.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/C++/XWindow/lib/Extensions/Basic/Interfaces/IColorable.cpp > CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IColorable.cpp.i
+
+CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IColorable.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IColorable.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/C++/XWindow/lib/Extensions/Basic/Interfaces/IColorable.cpp -o CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IColorable.cpp.s
+
+CMakeFiles/XWindow.dir/lib/Extensions/Basic/XVisualObject.cpp.o: CMakeFiles/XWindow.dir/flags.make
+CMakeFiles/XWindow.dir/lib/Extensions/Basic/XVisualObject.cpp.o: /mnt/c/C++/XWindow/lib/Extensions/Basic/XVisualObject.cpp
+CMakeFiles/XWindow.dir/lib/Extensions/Basic/XVisualObject.cpp.o: CMakeFiles/XWindow.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/C++/XWindow/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/XWindow.dir/lib/Extensions/Basic/XVisualObject.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/XWindow.dir/lib/Extensions/Basic/XVisualObject.cpp.o -MF CMakeFiles/XWindow.dir/lib/Extensions/Basic/XVisualObject.cpp.o.d -o CMakeFiles/XWindow.dir/lib/Extensions/Basic/XVisualObject.cpp.o -c /mnt/c/C++/XWindow/lib/Extensions/Basic/XVisualObject.cpp
+
+CMakeFiles/XWindow.dir/lib/Extensions/Basic/XVisualObject.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XWindow.dir/lib/Extensions/Basic/XVisualObject.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/C++/XWindow/lib/Extensions/Basic/XVisualObject.cpp > CMakeFiles/XWindow.dir/lib/Extensions/Basic/XVisualObject.cpp.i
+
+CMakeFiles/XWindow.dir/lib/Extensions/Basic/XVisualObject.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XWindow.dir/lib/Extensions/Basic/XVisualObject.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/C++/XWindow/lib/Extensions/Basic/XVisualObject.cpp -o CMakeFiles/XWindow.dir/lib/Extensions/Basic/XVisualObject.cpp.s
+
+CMakeFiles/XWindow.dir/lib/Extensions/Common/Brush.cpp.o: CMakeFiles/XWindow.dir/flags.make
+CMakeFiles/XWindow.dir/lib/Extensions/Common/Brush.cpp.o: /mnt/c/C++/XWindow/lib/Extensions/Common/Brush.cpp
+CMakeFiles/XWindow.dir/lib/Extensions/Common/Brush.cpp.o: CMakeFiles/XWindow.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/C++/XWindow/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/XWindow.dir/lib/Extensions/Common/Brush.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/XWindow.dir/lib/Extensions/Common/Brush.cpp.o -MF CMakeFiles/XWindow.dir/lib/Extensions/Common/Brush.cpp.o.d -o CMakeFiles/XWindow.dir/lib/Extensions/Common/Brush.cpp.o -c /mnt/c/C++/XWindow/lib/Extensions/Common/Brush.cpp
+
+CMakeFiles/XWindow.dir/lib/Extensions/Common/Brush.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XWindow.dir/lib/Extensions/Common/Brush.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/C++/XWindow/lib/Extensions/Common/Brush.cpp > CMakeFiles/XWindow.dir/lib/Extensions/Common/Brush.cpp.i
+
+CMakeFiles/XWindow.dir/lib/Extensions/Common/Brush.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XWindow.dir/lib/Extensions/Common/Brush.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/C++/XWindow/lib/Extensions/Common/Brush.cpp -o CMakeFiles/XWindow.dir/lib/Extensions/Common/Brush.cpp.s
+
+CMakeFiles/XWindow.dir/lib/Extensions/Basic/XVisual.cpp.o: CMakeFiles/XWindow.dir/flags.make
+CMakeFiles/XWindow.dir/lib/Extensions/Basic/XVisual.cpp.o: /mnt/c/C++/XWindow/lib/Extensions/Basic/XVisual.cpp
+CMakeFiles/XWindow.dir/lib/Extensions/Basic/XVisual.cpp.o: CMakeFiles/XWindow.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/C++/XWindow/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/XWindow.dir/lib/Extensions/Basic/XVisual.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/XWindow.dir/lib/Extensions/Basic/XVisual.cpp.o -MF CMakeFiles/XWindow.dir/lib/Extensions/Basic/XVisual.cpp.o.d -o CMakeFiles/XWindow.dir/lib/Extensions/Basic/XVisual.cpp.o -c /mnt/c/C++/XWindow/lib/Extensions/Basic/XVisual.cpp
+
+CMakeFiles/XWindow.dir/lib/Extensions/Basic/XVisual.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XWindow.dir/lib/Extensions/Basic/XVisual.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/C++/XWindow/lib/Extensions/Basic/XVisual.cpp > CMakeFiles/XWindow.dir/lib/Extensions/Basic/XVisual.cpp.i
+
+CMakeFiles/XWindow.dir/lib/Extensions/Basic/XVisual.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XWindow.dir/lib/Extensions/Basic/XVisual.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/C++/XWindow/lib/Extensions/Basic/XVisual.cpp -o CMakeFiles/XWindow.dir/lib/Extensions/Basic/XVisual.cpp.s
+
+CMakeFiles/XWindow.dir/lib/Extensions/Basic/XSystem.cpp.o: CMakeFiles/XWindow.dir/flags.make
+CMakeFiles/XWindow.dir/lib/Extensions/Basic/XSystem.cpp.o: /mnt/c/C++/XWindow/lib/Extensions/Basic/XSystem.cpp
+CMakeFiles/XWindow.dir/lib/Extensions/Basic/XSystem.cpp.o: CMakeFiles/XWindow.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/C++/XWindow/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/XWindow.dir/lib/Extensions/Basic/XSystem.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/XWindow.dir/lib/Extensions/Basic/XSystem.cpp.o -MF CMakeFiles/XWindow.dir/lib/Extensions/Basic/XSystem.cpp.o.d -o CMakeFiles/XWindow.dir/lib/Extensions/Basic/XSystem.cpp.o -c /mnt/c/C++/XWindow/lib/Extensions/Basic/XSystem.cpp
+
+CMakeFiles/XWindow.dir/lib/Extensions/Basic/XSystem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XWindow.dir/lib/Extensions/Basic/XSystem.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/C++/XWindow/lib/Extensions/Basic/XSystem.cpp > CMakeFiles/XWindow.dir/lib/Extensions/Basic/XSystem.cpp.i
+
+CMakeFiles/XWindow.dir/lib/Extensions/Basic/XSystem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XWindow.dir/lib/Extensions/Basic/XSystem.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/C++/XWindow/lib/Extensions/Basic/XSystem.cpp -o CMakeFiles/XWindow.dir/lib/Extensions/Basic/XSystem.cpp.s
+
+CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/ILifecycle.cpp.o: CMakeFiles/XWindow.dir/flags.make
+CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/ILifecycle.cpp.o: /mnt/c/C++/XWindow/lib/Extensions/Basic/Interfaces/ILifecycle.cpp
+CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/ILifecycle.cpp.o: CMakeFiles/XWindow.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/C++/XWindow/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/ILifecycle.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/ILifecycle.cpp.o -MF CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/ILifecycle.cpp.o.d -o CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/ILifecycle.cpp.o -c /mnt/c/C++/XWindow/lib/Extensions/Basic/Interfaces/ILifecycle.cpp
+
+CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/ILifecycle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/ILifecycle.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/C++/XWindow/lib/Extensions/Basic/Interfaces/ILifecycle.cpp > CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/ILifecycle.cpp.i
+
+CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/ILifecycle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/ILifecycle.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/C++/XWindow/lib/Extensions/Basic/Interfaces/ILifecycle.cpp -o CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/ILifecycle.cpp.s
+
+CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IEventHandler.cpp.o: CMakeFiles/XWindow.dir/flags.make
+CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IEventHandler.cpp.o: /mnt/c/C++/XWindow/lib/Extensions/Basic/Interfaces/IEventHandler.cpp
+CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IEventHandler.cpp.o: CMakeFiles/XWindow.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/C++/XWindow/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IEventHandler.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IEventHandler.cpp.o -MF CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IEventHandler.cpp.o.d -o CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IEventHandler.cpp.o -c /mnt/c/C++/XWindow/lib/Extensions/Basic/Interfaces/IEventHandler.cpp
+
+CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IEventHandler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IEventHandler.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/C++/XWindow/lib/Extensions/Basic/Interfaces/IEventHandler.cpp > CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IEventHandler.cpp.i
+
+CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IEventHandler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IEventHandler.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/C++/XWindow/lib/Extensions/Basic/Interfaces/IEventHandler.cpp -o CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IEventHandler.cpp.s
+
 # Object files for target XWindow
 XWindow_OBJECTS = \
 "CMakeFiles/XWindow.dir/main.cpp.o" \
-"CMakeFiles/XWindow.dir/lib/Extensions/XWindow/XWindow.cpp.o" \
+"CMakeFiles/XWindow.dir/lib/Extensions/Basic/XWindow.cpp.o" \
+"CMakeFiles/XWindow.dir/lib/Extensions/Common/Color.cpp.o" \
 "CMakeFiles/XWindow.dir/example/MainWindow.cpp.o" \
-"CMakeFiles/XWindow.dir/lib/Extensions/Common/Color.cpp.o"
+"CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IDrawable.cpp.o" \
+"CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IColorable.cpp.o" \
+"CMakeFiles/XWindow.dir/lib/Extensions/Basic/XVisualObject.cpp.o" \
+"CMakeFiles/XWindow.dir/lib/Extensions/Common/Brush.cpp.o" \
+"CMakeFiles/XWindow.dir/lib/Extensions/Basic/XVisual.cpp.o" \
+"CMakeFiles/XWindow.dir/lib/Extensions/Basic/XSystem.cpp.o" \
+"CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/ILifecycle.cpp.o" \
+"CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IEventHandler.cpp.o"
 
 # External object files for target XWindow
 XWindow_EXTERNAL_OBJECTS =
 
 XWindow: CMakeFiles/XWindow.dir/main.cpp.o
-XWindow: CMakeFiles/XWindow.dir/lib/Extensions/XWindow/XWindow.cpp.o
-XWindow: CMakeFiles/XWindow.dir/example/MainWindow.cpp.o
+XWindow: CMakeFiles/XWindow.dir/lib/Extensions/Basic/XWindow.cpp.o
 XWindow: CMakeFiles/XWindow.dir/lib/Extensions/Common/Color.cpp.o
+XWindow: CMakeFiles/XWindow.dir/example/MainWindow.cpp.o
+XWindow: CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IDrawable.cpp.o
+XWindow: CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IColorable.cpp.o
+XWindow: CMakeFiles/XWindow.dir/lib/Extensions/Basic/XVisualObject.cpp.o
+XWindow: CMakeFiles/XWindow.dir/lib/Extensions/Common/Brush.cpp.o
+XWindow: CMakeFiles/XWindow.dir/lib/Extensions/Basic/XVisual.cpp.o
+XWindow: CMakeFiles/XWindow.dir/lib/Extensions/Basic/XSystem.cpp.o
+XWindow: CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/ILifecycle.cpp.o
+XWindow: CMakeFiles/XWindow.dir/lib/Extensions/Basic/Interfaces/IEventHandler.cpp.o
 XWindow: CMakeFiles/XWindow.dir/build.make
 XWindow: CMakeFiles/XWindow.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/C++/XWindow/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable XWindow"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/C++/XWindow/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable XWindow"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/XWindow.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
